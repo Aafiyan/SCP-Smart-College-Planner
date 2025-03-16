@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Hub - Streamline Your College Experience</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Academic Hub</h2>
+        </div>
+        <div class="auth-buttons">
+            <a href="/login" class="login-btn">Login</a>
+            <a href="/signup" class="signup-btn">Sign Up</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Transform Your Academic Journey</h1>
+        <p>One platform for assignments, attendance, results, and communications</p>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Assignment Management</h3>
+            <p>Submit and track assignments with ease</p>
+        </div>
+        <div class="feature-card">
+            <h3>Real-time Updates</h3>
+            <p>Never miss important announcements</p>
+        </div>
+        <div class="feature-card">
+            <h3>Academic Progress</h3>
+            <p>Track your CGPA and attendance</p>
+        </div>
+    </section>
+
+    <section class="register-college">
+        <h2>Are you a College Administrator?</h2>
+        <p>Register your institution to provide a seamless digital experience for your students and faculty</p>
+        <a href="/register-college" class="cta-button">Register Your College</a>
+    </section>
+</body>
+</html>
